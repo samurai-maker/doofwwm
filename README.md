@@ -57,9 +57,8 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://telegram.dog/XTZ_HerokuBot?start=RXZhbWFyaWFURy9FdmFNYXJpYSBtYXN0ZXI">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
+### Click Below Image to Deploy
+[![Deploy](https://coursework.vschool.io/content/images/size/w2000/2018/10/heroku_logo.jpeg)](https://heroku.com/deploy?template=https://github.com/samurai-maker/EvaMaria)
 </p>
 </details>
 
