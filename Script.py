@@ -61,7 +61,7 @@ Help: <b>Auto Filter</b>
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db.
  ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬"""
-  CONNECTION_TXT = """<b> PRIVATE </b>"""
+
     EXTRAMOD_TXT = """
  ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬
 Help: <b>Connections</b>
