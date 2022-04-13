@@ -405,10 +405,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "start":
         buttons =  [[
             
-            InlineKeyboardButton('Search 🌎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝔰𝔢𝔞𝔯𝔠𝔥 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Help 🔧', callback_data='help'),
-            InlineKeyboardButton(' About 🎧', callback_data='about')
+            InlineKeyboardButton('𝔥𝔢𝔩𝔭 🔧', callback_data='help'),
+            InlineKeyboardButton(' 𝔞𝔟𝔬𝔲𝔱 🎧', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -419,14 +419,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('Piracy Is Crime')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('𝔪𝔞𝔫𝔲𝔰𝔩 𝔣𝔦𝔩𝔱𝔢𝔯', callback_data='manuelfilter'),
+            InlineKeyboardButton('𝔞𝔲𝔱𝔬 𝔣𝔦𝔩𝔱𝔢𝔯', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('🎰 𝔢𝔵𝔱𝔯𝔞 𝔪𝔬𝔡𝔰', callback_data='extra'),
+            InlineKeyboardButton('🎗𝔥𝔬𝔪𝔢', callback_data='start')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('𝔶𝔱-𝔦𝔫𝔰𝔱𝔞 𝔡𝔬𝔴𝔫𝔩𝔬𝔞𝔡𝔢𝔯 📥', url='https://t.me/youtube_instagram_downloaderbot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
