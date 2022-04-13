@@ -41,10 +41,10 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             
-            InlineKeyboardButton('Search 🌎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝔰𝔢𝔞𝔯𝔠𝔥 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Help 🔧', callback_data='help'),
-            InlineKeyboardButton(' About 🎧', callback_data='about')
+            InlineKeyboardButton('𝔥𝔢𝔩𝔭 🔧', callback_data='help'),
+            InlineKeyboardButton(' 𝔞𝔟𝔬𝔲𝔱 🎧', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -63,7 +63,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "📧 𝔧𝔬𝔦𝔫 𝔲𝔭𝔡𝔞𝔱𝔢𝔰 𝔠𝔥𝔞𝔫𝔫𝔢𝔩", url=invite_link.invite_link
                 )
             ]
         ]
@@ -85,10 +85,10 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons =[[
             
-            InlineKeyboardButton('Search 🌎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('𝔰𝔢𝔞𝔯𝔠𝔥 🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Help 🔧', callback_data='help'),
-            InlineKeyboardButton(' About 🎧', callback_data='about')
+            InlineKeyboardButton('𝔥𝔢𝔩𝔭 🔧', callback_data='help'),
+            InlineKeyboardButton(' 𝔞𝔟𝔬𝔲𝔱 🎧', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
